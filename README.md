@@ -10,6 +10,12 @@ ForCH is Windows Batch file disguised as executable. He is copying himself to %a
 # How to delete ForCH
 You need USB-drive with Windows Installation Disk.
 At first - boot to Windows Installation Menu. After booting press "Shift + F10". Now run this command:
+
   del %appdata%\Microsoft\Windows\Start Menu\Startup\msdef.bat
+  
+or
+  
+  del %appdata%\Microsoft\Windows\Start Menu\Startup\msdef.exe
+  
 Now reboot.
 Now ForCH is deleted.
